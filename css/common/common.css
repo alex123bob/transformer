@@ -1,0 +1,38 @@
+/* mostly this is used for stage's and outer layers' style */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.screen {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+.carrier {
+	width: 100%;
+	height: 100%;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/* tablet goes here */
+@media screen and (min-width: 600px) {
+	.screen {
+		width: 90%;
+		-webkit-box-shadow: 0px 0px 35px 70px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+		-moz-box-shadow:    0px 0px 35px 70px #ccc;  /* Firefox 3.5 - 3.6 */
+		box-shadow:         0px 0px 35px 70px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	}
+}
