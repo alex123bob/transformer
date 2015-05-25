@@ -1,4 +1,26 @@
 /* mostly this is used for stage's and outer layers' style */
+@font-face {
+	font-family: 'education_vagrounded_light';
+    src: url('educationvagrounded-light-webfont.eot');
+    src: url('educationvagrounded-light-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('educationvagrounded-light-webfont.woff') format('woff'),*/
+         url('educationvagrounded-light-webfont.ttf') format('truetype'),
+         url('educationvagrounded-light-webfont.svg#education_vagroundedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'education_vagrounded_bold';
+    src: url('educationvagrounded-bold-webfont.eot');
+    src: url('educationvagrounded-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('educationvagrounded-bold-webfont.woff') format('woff'),*/
+         url('educationvagrounded-bold-webfont.ttf') format('truetype'),
+         url('educationvagrounded-bold-webfont.svg#education_vagroundedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -6,6 +28,7 @@
 
 html, body {
 	height: 100%;
+	font-family: 'education_vagrounded_bold';
 }
 
 .screen {
